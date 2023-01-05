@@ -3,8 +3,7 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import bodyParser from "body-parser";
 const PORT = process.env.PORT || 5000;
-//const mongoURI = process.env.URL;
-const mongoURI = "mongodb+srv://admin:passwordledu@naacloud.6z1jkgr.mongodb.net/memories?retryWrites=true&w=majority";
+const mongoURI = process.env.URL;
 import posts from './routes/Posts.js';
 import users from './routes/Users.js';
 
